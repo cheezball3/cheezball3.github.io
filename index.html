@@ -374,7 +374,7 @@
 <pre>
 Hi! I'm Reimo, a 13-year-old developer from Estonia!
 I have made a program named <b>Craftchat</b>, a program that that logs chat messages on minecraft servers.
-Craftchat has already loged over <b>200,000</b> lines of messages more about it <a id="discordInv" href="http://craftchat.duckdns.org:1519/About">here</a>!
+Craftchat has already loged over <b>300,000</b> lines of messages more about it <a id="discordInv" href="http://craftchat.duckdns.org:1519/About">here</a>!
 Consider joining <b>me and others</b> on the Discord server <a id="discordInv" href="https://discord.com/invite/A6ErRQ6j4s">here</a>.
 I <b>love</b> programming in Python, Html and JavaScript.
 from 7/3/2024 craftchat has been not maintained once i find a good server it will be maintained once again!
@@ -440,17 +440,5 @@ I will probably respond the fastest on Discord.
 
 <a id="go-back" href="http://craftchat.duckdns.org:1519/logger" style="position: fixed; right: 10px; top: 20px; color: white; text-decoration: none;">Go back to logger</a>
     
-        <script>
-        fetch('logs/logs.txt')
-            .then(response => response.text())
-            .then(data => {
-                const logCount = data.split('\n').length;
-                document.getElementById('logCount').textContent = `${logCount.toLocaleString()}`
-            })
-            .catch(error => {
-                console.error('Error fetching log count:', error);
-            });
-    </script>
-
 </body>
 </html>
